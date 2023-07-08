@@ -67,7 +67,7 @@ body{
 .hprimary{
     text-decoration: none;
     text-align:center;
-    font-size: 4.5rem;
+    font-size: 2.2rem;
 } 
 .hsecondary{
     text-decoration: none;
@@ -244,7 +244,7 @@ nav {
 
 /* *************************** body ******************* */
 .main{
-    padding: 5rem;
+    padding: 5rem 5rem 2rem 5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -254,13 +254,33 @@ nav {
 
 
 .card{
-    height: 25rem;
-    width: 22rem;
+    height: 20rem;
+    width: 24rem;
     margin: 2rem;
+    padding: 2rem;
     border-radius: 14px;
-    background: #e0e0e0;
+    background: #f4f4f4;
     box-shadow:  -8px 8px 22px #8d8d8d,
                  8px -8px 22px #ffffff;
+    transition: 500ms;
+}
+.card:hover{
+    transition: 500ms;
+    box-shadow:  20px -20px 60px #bebebe,
+                -20px 20px 60px #ffffff;
+}
+
+
+.card a{
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -272,6 +292,11 @@ nav {
 
 }
 
+@media screen and (max-width:550px){
+    .main{
+        padding: 1.4rem;
+    }
+}
 
 
 /* footer */
