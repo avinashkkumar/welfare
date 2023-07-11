@@ -1,0 +1,39 @@
+
+
+.brief {
+    background-color: #FF7373;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border-radius: 1.5rem;
+  }
+   
+  .upper1 {
+    display: flex;
+  }
+  .upper2 {
+  display: flex;
+  }
+  
+  
+  .box {
+    width: 25rem;
+    height: 4rem;
+    background-color: #f0f0f0;
+    margin: 1.2rem;
+    
+  }
+  
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .box1 {
+    width: 35rem;
+    height: 10rem;
+    background-color: #f0f0f0;
+    margin: 1.2rem;
+  }

@@ -1,0 +1,27 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+{% block head %}
+    <link rel="stylesheet" href={% static 'css/scheme_details.css' %}>
+{% endblock head %}
+
+
+{% block content %}
+<div class="brief">
+  <h1>Title of Schemes</h1>
+  <div class="upper1">
+    <div class="box">up</div>
+    <div class="box">up</div>
+  </div>
+  <div class="upper2">
+    <div class="box">bb</div>
+    <div class="box">bb</div>
+  </div>
+</div>
+
+<div class="bottom">
+  <div class="box1">mh</div>
+  <div class="box1">mh</div>
+  <div class="box1">mh</div>
+</div>
+{% endblock content %}
