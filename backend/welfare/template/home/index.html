@@ -2,11 +2,11 @@
 {% load static %}
 {% block content %}
     <div class="main" id="main">
-        <div class="card"><a href="/scheme_list.html">Health and disease prevention</a></div>
-        <div class="card"><a href="/scheme_list.html">Girl child protection</a></div>
-        <div class="card"><a href="/scheme_list.html">Protection of Janani</a></div>
-        <div class="card"><a href="/scheme_list.html">Finance and financial security for women</a></div>
-        <div class="card"><a href="/scheme_list.html">Women entrepreneurship</a></div>
+        <div class="card"><a href={% url "scheme" %}>Health and disease prevention</a></div>
+        <div class="card"><a href={% url "scheme" %}>Girl child protection</a></div>
+        <div class="card"><a href={% url "scheme" %}>Protection of Janani</a></div>
+        <div class="card"><a href={% url "scheme" %}>Finance and financial security for women</a></div>
+        <div class="card"><a href={% url "scheme" %}>Women entrepreneurship</a></div>
     </div>
 {% endblock content %}
 
